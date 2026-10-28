@@ -1,0 +1,123 @@
+{
+  "git.autofetch": true,
+  "vscode-pets.petColor": "akita",
+  "vscode-pets.petSize": "medium",
+  "vscode-pets.petType": "dog",
+  "vscode-pets.throwBallWithMouse": true,
+  "vscode-pets.theme": "winter",
+  "vscode-pets.disableEffects": true,
+  "git.enableSmartCommit": true,
+  "cmake.options.statusBarVisibility": "compact",
+  "workbench.iconTheme": "material-icon-theme",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "remote.SSH.remotePlatform": {
+    "*.gitpod.io": "linux",
+    "freecodecam-boilerplate-rfalmgouzrj.vss.gitpod.io": "linux"
+  },
+  "vscode-edge-devtools.headless": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vscord.app.name": "Visual Studio Code",
+  "github.copilot.selectedCompletionModel": "",
+  "typescript.suggest.enabled": false,
+  "javascript.suggest.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "git.confirmSync": false,
+  "files.associations": {
+    "*.cs": "csharp",
+    "*.ino": "cpp"
+  },
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Generate a commit message in portuguese."
+    }
+  ],
+  //neovim configuration
+  "vscode-neovim.compositeKeys": {
+    "jk": {
+      "command": "vscode-neovim.escape"
+    }
+  },
+  //vim like configuration
+  "editor.lineNumbers": "relative",
+  "terminal.integrated.defaultProfile.windows": "Pwsh",
+  "workbench.editor.empty.hint": "hidden",
+  "terminal.integrated.automationProfile.windows": {},
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Pwsh": {
+      "path": ["C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe"],
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "editor.acceptSuggestionOnEnter": "off",
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
+  "editor.inlineSuggest.enabled": false,
+  "editor.snippetSuggestions": "top",
+  "livePreview.notifyOnOpenLooseFile": false,
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "editor.defaultFormatter": "vscode-arduino.vscode-arduino-community",
+  "editor.formatOnSave": true,
+  "json.schemas": [],
+  "workbench.settings.useSplitJSON": true,
+  "editor.tabCompletion": "on",
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on"
+  },
+  "arduino.useArduinoCli": true,
+  "settingsSync.ignoredExtensions": [
+    "platformio.platformio-ide"
+  ],
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command"
+  ],
+  "gitlens.graph.minimap.enabled": false,
+  "window.confirmSaveUntitledWorkspace": false,
+  "mermaid.vscode.aiExportName": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "claudeCode.preferredLocation": "panel",
+  "update.enableWindowsBackgroundUpdates": false,
+  "chat.viewSessions.orientation": "stacked",
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Tokyo Night",
+  "window.density.layout": "compact",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  }
+}

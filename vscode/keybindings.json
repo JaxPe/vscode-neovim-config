@@ -1,0 +1,69 @@
+// Place your key bindings in this file to override the defaults
+[
+  // Permite que <Tab> navegue entre abas no modo Normal sem inserir tabulação
+  {
+    "key": "tab",
+    "command": "vscode-neovim.send",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'",
+    "args": "<Tab>"
+  },
+  {
+    "key": "shift+tab",
+    "command": "vscode-neovim.send",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'",
+    "args": "<S-Tab>"
+  },
+  // Garante que o Ctrl+h / j / k / l funcione para trocar de grupos de editores
+  {
+    "key": "ctrl+h",
+    "command": "vscode-neovim.send",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'",
+    "args": "<C-h>"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "vscode-neovim.send",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'",
+    "args": "<C-j>"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "vscode-neovim.send",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'",
+    "args": "<C-k>"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "vscode-neovim.send",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'",
+    "args": "<C-l>"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.view.explorer",
+    "when": "editorTextFocus && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "numpad8",
+    "command": "editor.action.toggleMinimap"
+  },
+  {
+    "key": "Alt+i",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "Alt+i",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  }
+]
